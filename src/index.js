@@ -1,10 +1,12 @@
-const defaultAwesomeFunction = (name) => {
-  const returnStr = `I am the Default Awesome Function, fellow comrade! - ${name}`;
-  return returnStr;
-};
+/**
+ * @param {number} a
+ * @param {number} b
+ * @return {number}
+ */
+const example = (a, b) => {
+    return a + b
+}
 
-const awesomeFunction = () => 'I am just an Awesome Function';
+export { example }
 
-export default defaultAwesomeFunction;
-
-export { awesomeFunction };
+export default example
