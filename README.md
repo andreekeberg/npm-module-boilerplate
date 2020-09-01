@@ -1,20 +1,19 @@
 # NPM Module Boilerplate
 
-[![Build Status](https://travis-ci.org/flexdinesh/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/flexdinesh/npm-module-boilerplate) [![dependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate) [![devDependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+## Boilerplate for UMD (ES6 and CommonJS) modules with Webpack
 
 **Start developing your NPM module in seconds** ✨
 
 Readymade boilerplate setup with all the best practices to kick start your npm/node module development.
 
-Happy hacking =)
-
 # Features
 
-* **ES6/ESNext** - Write _ES6_ code and _Babel_ will transpile it to ES5 for backwards compatibility
-* **Test** - _Mocha_ with _Istanbul_ coverage
-* **Lint** - Preconfigured _ESlint_ with _Airbnb_ config
+* **ES2019** - Write _ES2019_ code and _Webpack_ will transpile it to ES5 for backwards compatibility
+* **Tests** - _Mocha_ with _Istanbul_ coverage
+* **Linting** - Preconfigured _ESlint_
 * **CI** - _TravisCI_ configuration setup
 * **Minify** - Built code will be minified for performance
+* **UMD (Universal Module Definition)** - Publish packages for use in both Node.js and browsers
 
 # Commands
 - `npm run clean` - Remove `lib/` directory
@@ -22,16 +21,15 @@ Happy hacking =)
 - `npm test:only` - Run tests without linting or coverage.
 - `npm test:watch` - You can even re-run tests on file changes!
 - `npm test:prod` - Run tests with minified code.
-- `npm run test:examples` - Test written examples on pure JS for better understanding module usage.
-- `npm run lint` - Run ESlint with airbnb-config
+- `npm run lint` - Run ESlint.
 - `npm run cover` - Get coverage report for your code.
-- `npm run build` - Babel will transpile ES6 => ES5 and minify the code.
+- `npm run build` - Webpack will transpile ES2019 => ES5 and minify the code.
 - `npm run prepublish` - Hook for npm. Do all the checks before publishing your module.
 
 # Installation
-Just clone this repo and remove `.git` folder.
 
+Just clone this repo and remove the `.git` folder.
 
-# License
+## License
 
-MIT © Dinesh Pandiyan
+Licensed under the [MIT license](LICENSE).
