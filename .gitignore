@@ -40,5 +40,6 @@ lib
 package-lock.json
 yarn.lock
 
-others
+# Others
 .DS_Store
+Thumbs.db
