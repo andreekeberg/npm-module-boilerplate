@@ -1,14 +1,12 @@
-import { assert } from 'chai';
-import defaultAwesomeFunction, { awesomeFunction } from '../src';
+import { assert, expect } from 'chai'
+import example from '../src/index'
 
-describe('Awesome test.', () => {
-  it('should test default awesome function', () => {
-    const expectedVal = 'I am the Default Awesome Function, fellow comrade! - Dinesh';
-    assert(defaultAwesomeFunction('Dinesh') === expectedVal, 'Default not awesome :(');
-  });
+describe('example', () => {
+    it('should return a number', () => {
+        expect(example(1, 1)).to.be.a('number')
+    })
 
-  it('should test awesome function', () => {
-    const expectedVal = 'I am just an Awesome Function';
-    assert(awesomeFunction() === expectedVal, 'Named awesome :(');
-  });
-});
+    it('should add values of a and b', () => {
+        expect(example(1, 2)).to.equal(3)
+    })
+})
