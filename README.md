@@ -1,6 +1,6 @@
 # NPM Module Boilerplate
 
-## Boilerplate for UMD (ES6 and CommonJS) npm modules with Webpack
+### Boilerplate for UMD (ES6 and CommonJS) npm modules with Webpack
 
 **Start developing your NPM module in seconds** ✨
 
